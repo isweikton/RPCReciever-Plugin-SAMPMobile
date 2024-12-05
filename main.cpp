@@ -25,7 +25,7 @@ void Packet_CustomRPC(Packet* p)
     {
         case PACKET_HELLOWORLD:
         {
-            toasty(OBFUSCATE("[WNRPC][ID: %s] Кастомный пакет доставлен"), PACKET_HELLOWORLD);
+            toasty(OBFUSCATE("[WNRPC][ID: %s] ГЉГ Г±ГІГ®Г¬Г­Г»Г© ГЇГ ГЄГҐГІ Г¤Г®Г±ГІГ ГўГ«ГҐГ­"), PACKET_HELLOWORLD);
             break;
         }
         default:
@@ -74,17 +74,7 @@ void initSamp()
 
 void Main() 
 {
-    //const char* thumb = OBFUSCATE("texdb/%s/%s.etc.tmb");
-    //ARMHook::writeMem(g_libGTASA + 0x573648,(int) thumb, 20);
-    //ARMHook::writeMem(g_libGTASA + 0x57365C,(int) thumb, 20);
-    //ARMHook::writeMem(g_libGTASA + 0x573670,(int) thumb, 20);
-    //ARMHook::writeMem(g_libGTASA + 0x573684,(int) thumb, 20);
-
-    //const char* dataoff = OBFUSCATE("texdb/%s/%s.etc");
-    //ARMHook::writeMem(g_libGTASA + 0x5736AC,(int) dataoff, 16);
-    //ARMHook::writeMem(g_libGTASA + 0x5736BC,(int) dataoff, 16);
-    //ARMHook::writeMem(g_libGTASA + 0x5736CC,(int) dataoff, 16);
-    //ARMHook::writeMem(g_libGTASA + 0x5736DC,(int) dataoff, 16);
+     // code for GTASA
 }
 
 void *InitialiseThread(void *p)
