@@ -69,7 +69,7 @@ int CNetGame__UpdateNetwork_hook(uintptr_t *data)
 
 void initSamp() 
 {
-    CHook::InlineHook(g_libSAMP, 0x077A08, (uintptr_t)CNetGame__UpdateNetwork_hook, (uintptr_t*)&CNetGame__UpdateNetwork);
+    CHook::InlineHook(g_libSAMP, 0x0, (uintptr_t)CNetGame__UpdateNetwork_hook, (uintptr_t*)&CNetGame__UpdateNetwork);
 }
 
 void Main() 
